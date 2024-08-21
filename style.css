@@ -1,0 +1,32 @@
+:root {
+    --height: 21.875px;
+    --width: 60px;
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+    border-style: solid;
+    border-width: 2px;
+    height:350px;
+    width:960px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.cell {
+    height: var(--height);
+    width: var(--width);
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+
